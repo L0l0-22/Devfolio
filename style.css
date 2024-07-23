@@ -1,0 +1,73 @@
+.nav-test{
+    background-color: black;
+    opacity: 0.9;
+}
+.navbar-nav .nav-link.active::after{
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    top: 100%;
+    left: 5px;
+}
+.home{
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.home h1{
+    font-size: 75px;
+}
+.about-title::after{
+    content: "";
+    background-color: blue;
+    height: 4px;
+    width: 150px;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+.icon{
+    border-radius: 50%;
+	height: 100px;
+	width: 100px;
+    margin: 0 0 10px 130px;
+	border: 8px solid ;
+}
+.services-counter{
+    background-image: url(images/counters-bg.jpg);
+    background-attachment: fixed;
+}
+.p-after::after{
+    content: "";
+    background-color: blue;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 49%;
+}
+.work-counter{
+    background-image: url(images/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+.test-work{
+    background-color: #0077ffa4;
+}
+.img-work-test{
+    transition: transform .5s ease;
+}
+.img-work-test:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn-test{
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+}
+footer{
+    background-color: #0062d3;
+}
